@@ -1,133 +1,82 @@
-# Rain
+<div align="center">
+	<img src="https://jekyllup.com/assets/images/themes/massively/massively-theme-preview-640px.jpg">
+	<br>
+	<br>
+	<a href="https://iwiedenm.github.io/jekyll-theme-massively">Massively Live Preview!</a>
+</div>
 
-Rain is a simple and clean Jekyll theme with focus on content. It's a fork of [Tale theme](https://github.com/chesterhow/tale) with additional customizations.
+# Massively
+> This is Massively, a text-heavy, article-oriented design built around a huge background
+image.
 
-![](https://github.com/inelaah/rain/blob/master/images/screenshot.png)
+See a preview of the Massively Jekyll Theme here: [live preview](https://iwiedenm.github.io/jekyll-theme-massively/). 
+
+Massively was originally designed by HTML5UP and Jekyll was integrated by [JekyllUp: Jekyll Themes](https://jekyllup.com)
+
+## How to Use This Theme
+Jekyll consumes themes in two flavors; gem-based or spread across multiple folders
+in the site source. This port is of the second type. Concretely, it means that you
+can simply grab the [zip][zip] or clone this repository, run `bundle install`
+in the new directory and finally `bundle exec jekyll serve`.
+You can now access your brand-new Jekyll site on [http://127.0.0.1:4000/][local].
+Enjoy!
+
+If you're completely new to Jekyll, check out it's [documentation][jekyll] first.
+It's not too hard, we promise!
+
+[zip]: https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip
+[local]: http://127.0.0.1:4000/
+[jekyll]: https://jekyllrb.com/
 
 ## Features
-- Compatible with GitHub Pages
-- Responsive design
-- Syntax highlighting
-- Markdown and HTML text formatting
-- Pagination of posts
-- Related articles section
-- Links to social media
 
+### Slapform.com Integration
+[Slapform](https://slapform.com) is supported out of the box! Just add your email to ```_config.yml``` and test the form.
+Every time one of your visitors submits the form, you'll get an email straight to your inbox containing the submission so you can get back to them right away. Slapform is very extendable, including AJAX submissions, webhooks, and more.
 
-## Getting Started
-
-You will need to install Jekyll on your machine. Installation depends on your operating system and it is explained [here](https://jekyllrb.com/docs/installation/).
-
-Then create a new directory and clone this repository:
-
-```bash
-mkdir rain
-cd rain
-git clone https://github.com/inelaah/rain.git
+### Auto-Generating Sitemap
+The sitemap is auto generated! Just simply change the sitemap variable in front matter of each page. It looks like so...
+```
+sitemap:
+  priority: 0.7
+  lastmod: 2017-11-02
+  changefreq: weekly
 ```
 
-Install all dependencies:
-
-```bash
-bundle install
+## Credits
+### Original README from HTML5 UP
 ```
+Massively by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-## Site Configuration
 
-There is a configuration file `_config.yml` in root directory. You should overwrite it to fit to your needs.
+This is Massively, a text-heavy, article-oriented design built around a huge background
+image (with a new parallax implementation I'm testing) and scroll effects (powered by
+Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
+that fulfills a few user requests and makes use of some new techniques I've been wanting
+to try out. Enjoy it :)
 
-An example of `_config.yml` looks like this:
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-```bash
-# Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://github.com/inelaah/rain
+(* = not included)
 
-# Author
-author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
-  url:          https://inelaah.com
+AJ
+aj@lkn.io | @ajlkn
 
-# Build settings
-markdown:       kramdown
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
+Credits:
 
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
+	Demo Images:
+		Unsplash (unsplash.com)
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
-
-# Links to social media
-social:
-  email: inelaah@gmail.com
-  github: https://github.com/inelaah
-  twitter: https://twitter.com
-  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
+	Other:
+		jQuery (jquery.com)
+		Misc. Sass functions (@HugoGiraudel)
+		Skel (skel.io)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
 ```
-
-## Favicons
-
-It is recommended to put your own favicons:
-
-- `apple-touch-icon.png` (180x180)
-- `favicon-32x32.png` (32x32)
-- `favicon-16x16.png` (16x16)
-- `mstile-150x150.png` (150x150)
-- `android-chrome-192x192.png` (192x192)
-- `android-chrome-512x512.png` (512x512)
-
-in `/assets` directory. They're easily created via [Favicon Generator](https://realfavicongenerator.net/).
-
-
-## Related Articles
-
-Related articles section is based on article tags. For every post that you want to have this section you should define tags.
-To include related articles in the bottom of the content you should define `related_posts_section` property in configuration file.
-It contains two fields: `max_count` and `min_common_tags`:
-- `max_count` represents the maximum number of related articles shown on a single article.
-- `min_common_tags` represents the minimum number of common tags for two articles to become related articles.
-
-## Links to social media
-
-To include links to social media in the top right corner of your page you need to define `social` property.
-It contains email, GitHub, Twitter and LinkedIn fields. You can leave out any of these if you don't want them to show up on your page.
-
-## Customizing Rain theme
-
-If you want to customize Rain theme you can fork this project and make some changes. If you just want to change the style then you can find Sass files in `_sass/rain` directory.
-
-## Adding your own posts
-
-You can see an example of post structure in `_posts` directory. After you clone this project you should clean the `_posts` directory and add your own posts.
-
-## Build and serve
-
-```
-bundle exec jekyll serve
-```
-
-Head over to http://127.0.0.1:4000/ to see your page.
-
-## License
-
-Rain is licensed under the MIT license. Check the [LICENSE](LICENSE.md) file for details.
-
-## Author
-
-[Inela Avdic Hukic](https://github.com/inelaah)
