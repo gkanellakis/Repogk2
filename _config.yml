@@ -16,8 +16,8 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/background.png"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Gerasimos Kanellakis'
+author: 'Gerasimos Kanellakis'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
@@ -25,7 +25,7 @@ paginate:	5
 url: "https://gkanellakis.github.io" # the base hostname & protocol for your site
 baseurl: "/Repogk2"
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+#twitter_handle: '@dirkfabisch'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
