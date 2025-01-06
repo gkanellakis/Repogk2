@@ -6,15 +6,15 @@ gems:
 # Site settings
 title: "G. Kanellakis Data Analyst"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Portfolio: Data-Driven Projects & Insights
 
 email: gkanellakis84@gmail.com
 #blog logo
-logo: "/assets/images/logo_Data_300.png"
+logo: "/assets/images/logo_simple_300.png"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/background.png"
 
 name: 'Dirk Fabisch'
 author: 'Dirk Fabisch'
