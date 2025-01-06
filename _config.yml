@@ -4,13 +4,13 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "G. Kanellakis Data Analyst"
 description: > # this means to ignore newlines until "email:"
    A Jekyll theme - Medium inspired
 
-email: a-mail@mail.mail
+email: gkanellakis84@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo_Data_300.png"
 float_logo: true # true, false (default)
 
 # blog cover
@@ -22,7 +22,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "https://gkanellakis.github.io/Repogk2/" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@dirkfabisch'
