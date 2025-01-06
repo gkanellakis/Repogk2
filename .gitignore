@@ -1,5 +1,8 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-README.md
+*.gem
+.bundle
+.sass-cache
+.jekyll-cache
+_site
+Gemfile.lock
+unused
+bootstrap-reference.html
