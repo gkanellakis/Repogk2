@@ -12,9 +12,6 @@ This is my project page
 #Links
 This is an [example link](http://example.com/ "With a Title").
 
-#Combinations
->
->
-> - Apple
-> - Banana
-> - Plum
+Dont, worry, we are still under construction
+
+We THank you for your Patience
