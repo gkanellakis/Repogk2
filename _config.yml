@@ -20,7 +20,7 @@ name: 'Gerasimos Kanellakis'
 author: 'Gerasimos Kanellakis'
 author_image: "/assets/images/author.jpg"
 
-paginate:	5
+paginate:	4
 
 url: "https://gkanellakis.github.io" # the base hostname & protocol for your site
 baseurl: "/Repogk2"
